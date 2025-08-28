@@ -7,4 +7,4 @@ class SandwichVegetariano(Sandwich):
         self.verduras = verduras
           
     def descripcion(self):
-        return f"Sandwich vegetariano con pan{self.pan} y verduras {self.verduras}"
+        return f"Sandwich vegetariano con pan {self.pan} y verduras {self.verduras}"
